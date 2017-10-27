@@ -4,7 +4,7 @@ We now know that an array is a list.
 
 We encounter lists all of the time in social media. On any platform, we have a list of friends or followers and a list of people who follow us. We could put those followers into an array:
 ```
-numberArray = [1,2,3,4]
+var friendsArray = ["Bert", "Ernie", "Big Bird", "Oscar"]
 ```
 Go ahead and define an array called friendsArray with the names of 4 of your favorite friends.
 
@@ -44,7 +44,7 @@ Go ahead and attach the .forEach method to your friendsArray and include space f
 
 solution:
 ```
-friendsArray.forEach(function ()
+friendsArray.forEach(function()
 ```
 Now, we want to create a function that will take each name in the array and concatenate it with a string that will give us that self-esteem boost on social media, telling us how awesome we are.
 
